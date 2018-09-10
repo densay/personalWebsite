@@ -1,0 +1,50 @@
+
+.bg-1{
+	background-color:#008080;
+	padding-top: 80px;
+	padding-bottom: 80px;
+
+
+}
+
+.bg-2{
+	background-color:#66b2b2;
+	padding-top: 50px;
+	padding-bottom: 80px;
+	padding-left: 3%;
+	padding-right: 3%;
+
+}
+.bg-2:h2{
+	padding:0;
+
+}
+
+#title{
+	margin-bottom: 5%;
+}
+
+.pjt{
+	color: white;
+	background-color: #004c4c;
+	text-align: center;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 120%;
+	
+	
+}
+
+.pjt:hover{
+	box-shadow: 5px 5px 5px 0px grey;
+	opacity: 0.6;
+	
+}
+.modal {
+  text-align: center;
+  margin: 10%;
+ 
+  
+}
