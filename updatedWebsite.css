@@ -1,0 +1,47 @@
+
+
+body{
+	background-color: #f9f7e9;
+}
+h1{
+	font-size: 75px;
+	font-family: "Courier New", Courier, monospace;
+	color: #390619;
+	font-weight: 500;
+
+}
+p{
+	padding-top: 5px;
+	font-family: "Courier New";
+}
+.project:hover{
+	opacity: 0.5;
+	text-decoration: underline;
+}
+.item{
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-family: "Courier New";
+	font-weight: 900;
+}
+.item:hover{
+	opacity: 0.5;
+	text-decoration: underline;
+
+}
+.links{
+	font-family: "Courier New";
+	padding-top: 15px;
+
+}
+.links:hover{
+	opacity: 0.5;
+	text-decoration: underline;
+}
+.container{
+	max-width: 650px;
+	text-align: center;
+	margin-top: 150px;
+
+}
