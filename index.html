@@ -1,205 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>Xochitl's Website</title>
-		<meta charset="utf-8">
-  		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!--<link rel="stylesheet" href="/Users/xochitlsay/Desktop/website/myWebsite.css">-->
+<head>
+	<title>Xochitl Say</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="updatedWebsite.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="updatedWebsite.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-		<!-- BS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link rel="stylesheet" href="myWebsite.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-		<!-- jQuery -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-		<!-- JS -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	</head>
-	
-	<body data-spy="scroll" data-target=".navbar" data-offset="50">
-		<nav class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-						<span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span> 
-				    </button>
-				    <p class="navbar-brand" style="margin: 0">Xochitl Say</p>
-				</div>
-
-				<div class="collapse navbar-collapse" id="myNavbar">
-					  
-					  <ul class="nav navbar-nav navbar-right">
-					    
-					    <li><a href="#projects">projects</a></li>
-					    <li><a href="https://www.linkedin.com/in/xochitl-say-372476101/" class="fa fa-linkedin"></a></li>
-						<li><a href="https://github.com/densay" class="fa fa-github"></a></li>
-
-					  </ul>
-				</div>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1>Xochitl Say</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 item">
+				<h3 style="color:#602844" data-toggle="collapse" data-target="#aboutme">About Me</h3>
 				
 			</div>
-
-		</nav>
-
-	
-		<!--main info-->
 		
-			
-		<div  class="bg-1">
-		  	<div class="container-fluid text-center" style="color: white;">
-
-			    <h1>Xochitl Say</h1>      
-			    <h2>Barnard College '20</h2>
-			    <h2>Computer Science</h2>
+			<div class="col-lg-4 item">
+				<h3 style="color:#915f6d" data-toggle="collapse" data-target="#projects">Projects</h3>
+			</div>
+			<div class="col-lg-4 item">
+				<h3 style="color:#d2aab3">Resume</h3>
 			</div>
 		</div>
-
-
-		<div id = "projects" class="bg-2 container-fluid text-center">
-			
-				<h2 id="title" style="color: white;">Projects</h2>
-				
-				<div class="row" >
-					<a data-toggle="modal" data-target="#p1">
-						<div class="col-lg-4 pjt text-center" style="">
-							D.S.L.X.
-						</div>
-					</a>
-
-
-					<a data-toggle="modal" data-target="#p2">
-						<div class="col-lg-4 pjt text-center " style="" height="300" width="300">
-
-								Naps
-							
-						</div>
-					</a>
-					<a data-toggle="modal" data-target="#p3">
-						<div class="col-lg-4 pjt text-center" style="" height="300" width="300">
-							Whaccessibility
-						</div>
-					</a>
-				</div>
-			
-				<div class="row justify-content-center">
-					<a data-toggle="modal" data-target="#p4">
-						<div class="col-lg-4 pjt justify-content-center" style="">
-							Treat Yo' Self
-						</div>
-					</a>
-					<a data-toggle="modal" data-target="#p5" >
-						<div class="col-lg-4 pjt " style="">
-							Wellesley Course Selector
-						</div>
-					</a>
-					<a data-toggle="modal" data-target="#p6">
-						<div class="col-lg-4 pjt" style="">
-							Spin	
-						</div>
-					</a>
-				</div>
-				
-			
-		</div>
-
-
-		<!---modal for p1 -->
-		<div class= "modal fade" id = "p1" role="dialog">
-			<div class="modal-content ">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-
-					<a href="http://dlsx.github.io/"><h2>Designated Learning for Student Excelllence</h2></a>
-			        
-			       
-			    </div>
-				<div class="modal-body">
-					<center><img src="dlsx.png" width="50%" height="50%"></center>
-					
-					<p>A mobile web app created to encourage literacy in young children. Collaboratively built in 2015.</p>
-				</div>
+		<div class="row">
+			<div id="aboutme" class="col-lg-12 collapse">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+   	 				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 			</div>
-		</div>
-
-
-		<!---modal for project 2 -->
-		<div class= "modal fade" id = "p2" role="dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-			        <button type="button" class="close" data-dismiss="modal">&times;</button>
-			       <a href="https://devpost.com/software/naps-6awfd2"><h3>Naps</h3></a>
-			    </div>
-				<div class="modal-body">
-					
-					<p>A mobile web app created to notify sleeping bus passengers that their stop was approaching.</p>
-				</div>
+			<div id="projects" class="col-lg-12 collapse">
+				<p class="project">D.S.L.X.</p>
+				<p class="project">Naps</p>
+				<p class="project">Whaccessibility</p>
+				<p class="project">Treat Yo' Self</p>
+				<p class="project">Wellesley Course Selector</p>
+				<p class="project">Spin</p>
 			</div>
+
 		</div>
-
-
-		<!---modal for p3 -->
-		<div class= "modal fade" id = "p3" role="dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-			        <button type="button" class="close" data-dismiss="modal">&times;</button>
-			      <a href="https://devpost.com/software/whaccessibility"> <h3>Whaccessility</h3></a>
-			    </div>
-				<div class="modal-body">
-					<center><img src="whac.jpg" width="50%" height="50%"></center>
-					<p>Interactive Google Map that locates user and aids in finding accessible entrances/paths.</p>
-				</div>
+		<div class="row">
+			<div class="col-lg-6 links">
+				<a href="https://www.linkedin.com/in/xochitl-say-372476101/"><h4 style="color:#390619">linkedin</h4></a>
 			</div>
-		</div>
-
-
-		<!---modal for p4 -->
-		<div class= "modal fade" id = "p4" role="dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-			        <button type="button" class="close" data-dismiss="modal">&times;</button>
-			       <a href="https://devpost.com/software/treat-yo-self"><h3>Treat Yo' Self</h3></a>
-			    </div>
-				<div class="modal-body">
-					
-					<p>Interactive text messaging program that sends you a gif based off of emotion received from user.</p>
-				</div>
+			<div class="col-lg-6 links">
+				<a href="https://github.com/densay"><h4 style="color:#390619">github</h4></a>
 			</div>
+        
 		</div>
 
-
-		<!---modal for p5 -->
-		<div class= "modal fade" id = "p5" role="dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-			        <button type="button" class="close" data-dismiss="modal">&times;</button>
-			       <h3>Wellesley Course Selector</h3>
-			    </div>
-				<div class="modal-body">
-					<center><img src="wcs.png" width="50%" height="50%"></center>
-					<p>A tool that makes course suggestions to Wellesley College CS and Math majors based off of courses already taken and their major. Also, tells them what percent of their major is completed.</p>
-				</div>
-			</div>
-		</div>
-
-
-		<!---modal for p6 -->
-		<div class= "modal fade" id = "p6" role="dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-			        <button type="button" class="close" data-dismiss="modal">&times;</button>
-			       <h3>Spin</h3>
-			    </div>
-				<div class="modal-body" >
-					<center><img src="spin.png" width="20%" height="5%"></center>
-					<p>An iOS game where the user must stop the wand at the corresponding color.</p>
-				</div>
-			</div>
-		</div>
-		
-	</body>
-
-</html>
+	</div>
+</body>
